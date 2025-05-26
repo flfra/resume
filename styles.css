@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Trade+Winds&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Montserrat';
+}
+
+body{
+  background: #f1f7f2;
+  font-size: 14px;
+  color: #4a5c47;
+  letter-spacing: 1px;
+}
+
+.wrapper{
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper .resume{
+  width: 450px;
+  margin: 5px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.125), -1px -1px 2px rgba(0,0,0,0.125);
+}
+
+.resume .profile_info {
+  text-align: center;
+}
+
+.resume .profile_info .profile_img {
+  width: 200px;
+  margin: 0 auto 5px;
+}
+
+.resume .profile_info .profile_img img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 50%;
+  object-fit: cover; 
+  border: 3px solid #4a7c59;
+}
+
+.resume .profile_info .profile_data .name {
+  font-size: 20px;
+  margin-bottom: 5px;
+  font-family: 'Montserrat';
+}
+
+.resume .profile_info .profile_data span {
+  display: inline-block;
+  color: #697c8e;
+}
+
+.resume .download_resume_btn a{
+    display: block;
+    background: #4a7c59;
+    color: #fff;
+    padding: 10px 15px;
+    width: 125px;
+  margin: 10px auto;
+  border-radius: 3px;
+}
+
+.resume .download_resume_btn a:hover {
+    background: #6aa96e;
+}
+
+.resume .title{
+    font-size: 16px;
+    font-weight: 700;
+    color: #3e6b4c;
+    margin-bottom: 15px;
+}
+
+.skills ul{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.skills ul li{
+  padding: 0 5px 10px;
+  width: 33.32%;
+  height: 85px;
+}
+
+.skills ul li .skill_item{
+  background: #f2f4f5;
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+  text-align: center;
+  padding: 15px 10px;
+}
+
+.skills ul li .skill_item .icon {
+  width: 32px;
+  height: 32px;
+  margin: 0 auto 2px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.skill_item.knime .icon {
+  background-image: url('images/knime.png');
+}
+
+.skill_item.lca_fe .icon {
+  background-image: url('images/LCA_fE.png');
+}
+
+.skill_item.premise .icon {
+  background-image: url('images/premise.png');
+}
+
+.skill_item.ms_office .icon {
+  background-image: url('images/ms_office.png');
+}
+
+.skill_item.arc_gis .icon {
+  background-image: url('images/arcgis_pro.png');
+}
+
+.skill_item.cdo .icon {
+  background-image: url('images/cdo.png');
+}
+
+.full_info_wrap .tabs ul{
+  display: flex;
+  width: 100%;
+  height: 36px;
+  border: 1px solid #dfe4e6;
+  border-radius: 3px;
+}
+
+.full_info_wrap .tabs ul li{
+  padding: 10px 5px;
+  width: 25%;
+  height: 34px;
+  text-align: center;
+  border-right: 1px solid #cdddcf;
+  background: #e9f0e6;
+  color: #4a5c47;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.full_info_wrap .tabs ul li:last-child{
+  border-right: 0;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.full_info_wrap .tabs ul li.active,
+.full_info_wrap .tabs ul li:hover{
+  background: #f1f7f2;
+  color: #3e6b4c;
+}
+
+.full_info{
+  padding-top: 15px;
+  height: 295px;
+  overflow: auto;
+}
+
+.info_wrap{
+  padding-left: 5px;
+}
+
+.info_wrap ul li{
+  margin-bottom: 10px;
+}
+
+.info_wrap ul li:last-child{
+  margin-bottom: 0;
+}
+
+.info_wrap .sub_title{
+  font-size: 16px;
+  font-weight: 600;
+  color: #6aa96e;
+}
+
+.info_wrap .info_item{
+  padding-top: 10px;
+  padding-left: 15px;
+}
+
+.info_wrap .info_item .info_title{
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.info_wrap .info_item .data{
+  font-size: 12px;
+}
+
+.languages .info_wrap ul li span{
+  display: inline-block;
+}
+
+.languages .info_wrap ul li span.info_q{
+  width: 150px;
+  font-weight: 600;
+}
+
+.contact .info_wrap ul li span{
+  display: inline-block;
+}
+
+.contact .info_wrap ul li span.info_q{
+  width: 150px;
+}
+
+.contact .info_wrap ul li span.info_a{
+  font-weight: 600;
+}
